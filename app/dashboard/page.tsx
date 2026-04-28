@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useState, useId, useRef } from "react";
 import { useRouter } from "next/navigation";
-import { Sidebar } from "../../components/Sidebar";
+import Sidebar from "@/components/Sidebar";
 
 
 export default function Home() {
