@@ -6,55 +6,55 @@
 
 ## 🚀 Overview
 
-PerspectiveX is a visual intelligence platform that transforms a single image into both:
+PerspectiveX is a visual intelligence platform that enhances understanding of objects from a single image by combining:
 
-* **Simulated multi-angle visualizations**, and
+* **Simulated multi-angle visualization**
 * **Multi-perspective contextual insights**
 
-Instead of showing a static view, PerspectiveX helps users understand **how an object would look from different angles** and **how it can be interpreted across multiple domains**.
+It allows users to explore how an object would appear from different viewpoints while also understanding it across technical, environmental, and user perspectives.
 
 ---
 
 ## ❗ Problem Statement
 
-* Single-view images provide limited understanding
-* Existing tools focus on detection, not interpretation
-* No simple solution enables multi-angle visualization from one image
+* Single-view images limit understanding
+* Existing tools focus only on detection, not interpretation
+* No simple system enables multi-angle visualization
 * Lack of contextual, multi-domain insights
 
 ---
 
 ## 💡 Solution
 
-PerspectiveX addresses these gaps by:
+PerspectiveX solves this by:
 
-* Simulating **multiple viewpoints** from a single image
-* Providing **contextual insights** across different perspectives
-* Delivering an intuitive UI for exploration
+* Simulating **multiple views from a single image**
+* Providing **contextual insights across domains**
+* Offering an intuitive and structured user interface
 
 ---
 
 ## 🔥 Core Innovation (USP)
 
-* 🔄 **Multi-Angle Simulation**
-  Visualizes how an object would appear from different angles using predefined views
+* 🔄 **Multi-Angle Visualization**
+  Simulates how an object would appear from different real-world perspectives
 
-* 🧠 **Multi-Perspective Intelligence**
-  Interprets the object across technical, environmental, and contextual dimensions
+* 🧠 **Multi-Perspective Analysis**
+  Provides insights across design, usability, sustainability, and safety
 
-* 📊 **Structured Output**
-  Presents results in a clean, user-friendly format
+* 📊 **Structured Intelligence Output**
+  Displays results in an easy-to-understand format
 
 ---
 
 ## ✨ Key Features
 
-* 🖼️ Image Upload & Processing
-* 🔄 Multi-Angle Perspective Simulation *(Prototype: predefined views)*
-* 🧠 Contextual Insight Generation *(simulated)*
-* 📊 Structured Result Display
-* 🕓 History Page
-* ⚙️ Settings Page
+* Image Upload & Processing
+* Multi-Angle View Simulation *(using predefined views)*
+* Contextual Insight Cards
+* Interactive Result Visualization
+* History Tracking
+* Settings Panel
 
 ---
 
@@ -62,7 +62,7 @@ PerspectiveX addresses these gaps by:
 
 * **Frontend:** Next.js
 * **Styling:** Tailwind CSS
-* **Backend:** Python (API-based, prototype stage)
+* **Backend:** Python (prototype stage)
 
 ---
 
@@ -70,68 +70,44 @@ PerspectiveX addresses these gaps by:
 
 ```
 PerspectiveX/
-│
-├── frontend/
-│   ├── app/
-│   ├── components/
-│   ├── public/
-│   └── config files
-│
-├── backend/
-│   └── main.py
-│
-└── README.md
+ ├── app/
+ │   ├── dashboard/
+ │   ├── results/
+ │   ├── history/
+ │   ├── settings/
+ │   ├── login/
+ │   └── page.tsx
+ ├── components/
+ ├── public/
+ │   └── views/
+ ├── package.json
+ └── README.md
 ```
 
 ---
 
 ## ⚠️ Prototype Note
 
-This version uses:
+This project uses:
 
-* **Predefined images** to simulate multi-angle views
-* **Static/mock insights** to demonstrate system behavior
+* Predefined images to simulate multi-angle views
+* Static/mock data for contextual insights
 
-This is a **concept validation prototype**, not a fully AI-powered system yet.
+This is a **concept prototype**, not a full AI-powered system yet.
 
 ---
 
 ## 🔮 Future Scope & AI Integration
 
-PerspectiveX is designed to integrate with advanced AI models such as:
+Planned improvements include:
 
-* **Google Gemini Vision API**
-* **Vertex AI Vision Services**
-
-Planned capabilities include:
-
-* Real-time image understanding
-* AI-generated multi-angle views
-* Context-aware insight generation
-* Cross-domain reasoning (technical, environmental, social)
-* Scalable, intelligent visual analysis
-
-This will evolve PerspectiveX into a **fully autonomous AI-driven visual reasoning system**.
+* Integration with **Google Gemini Vision API**
+* AI-generated multi-angle visualization
+* Real-time contextual analysis
+* Cross-domain intelligent reasoning
 
 ---
 
-## ▶️ How to Run
-
-### Frontend
-
-```
-cd frontend
-npm install
-npm run dev
-```
-
-### Backend
-
-```
-cd backend
-python main.py
-```
-
 ## 📌 Conclusion
 
-PerspectiveX demonstrates how combining **multi-angle visualization** with **contextual intelligence** can enhance understanding from a single image. It lays the foundation for next-generation AI-powered visual reasoning systems.
+PerspectiveX demonstrates how combining **visual transformation** with **contextual intelligence** can significantly improve understanding from a single image, paving the way for advanced AI-powered visual reasoning systems.
