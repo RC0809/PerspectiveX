@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PerspectiveX
 
-## Getting Started
+### Multi-Perspective Image Intelligence System
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Overview
+
+PerspectiveX is a visual intelligence platform that transforms a single image into both:
+
+* **Simulated multi-angle visualizations**, and
+* **Multi-perspective contextual insights**
+
+Instead of showing a static view, PerspectiveX helps users understand **how an object would look from different angles** and **how it can be interpreted across multiple domains**.
+
+---
+
+## ❗ Problem Statement
+
+* Single-view images provide limited understanding
+* Existing tools focus on detection, not interpretation
+* No simple solution enables multi-angle visualization from one image
+* Lack of contextual, multi-domain insights
+
+---
+
+## 💡 Solution
+
+PerspectiveX addresses these gaps by:
+
+* Simulating **multiple viewpoints** from a single image
+* Providing **contextual insights** across different perspectives
+* Delivering an intuitive UI for exploration
+
+---
+
+## 🔥 Core Innovation (USP)
+
+* 🔄 **Multi-Angle Simulation**
+  Visualizes how an object would appear from different angles using predefined views
+
+* 🧠 **Multi-Perspective Intelligence**
+  Interprets the object across technical, environmental, and contextual dimensions
+
+* 📊 **Structured Output**
+  Presents results in a clean, user-friendly format
+
+---
+
+## ✨ Key Features
+
+* 🖼️ Image Upload & Processing
+* 🔄 Multi-Angle Perspective Simulation *(Prototype: predefined views)*
+* 🧠 Contextual Insight Generation *(simulated)*
+* 📊 Structured Result Display
+* 🕓 History Page
+* ⚙️ Settings Page
+
+---
+
+## 🏗️ Tech Stack
+
+* **Frontend:** Next.js
+* **Styling:** Tailwind CSS
+* **Backend:** Python (API-based, prototype stage)
+
+---
+
+## 📂 Project Structure
+
+```
+PerspectiveX/
+│
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── public/
+│   └── config files
+│
+├── backend/
+│   └── main.py
+│
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚠️ Prototype Note
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This version uses:
 
-## Learn More
+* **Predefined images** to simulate multi-angle views
+* **Static/mock insights** to demonstrate system behavior
 
-To learn more about Next.js, take a look at the following resources:
+This is a **concept validation prototype**, not a fully AI-powered system yet.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔮 Future Scope & AI Integration
 
-## Deploy on Vercel
+PerspectiveX is designed to integrate with advanced AI models such as:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Google Gemini Vision API**
+* **Vertex AI Vision Services**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Planned capabilities include:
+
+* Real-time image understanding
+* AI-generated multi-angle views
+* Context-aware insight generation
+* Cross-domain reasoning (technical, environmental, social)
+* Scalable, intelligent visual analysis
+
+This will evolve PerspectiveX into a **fully autonomous AI-driven visual reasoning system**.
+
+---
+
+## ▶️ How to Run
+
+### Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```
+cd backend
+python main.py
+```
+
+## 📌 Conclusion
+
+PerspectiveX demonstrates how combining **multi-angle visualization** with **contextual intelligence** can enhance understanding from a single image. It lays the foundation for next-generation AI-powered visual reasoning systems.
