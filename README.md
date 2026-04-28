@@ -4,6 +4,11 @@
 
 ---
 
+## 🎥 Demo Video
+[Watch the Demo]
+https://screenrec.com/share/JRaApo85FP
+
+
 ## 🚀 Overview
 
 PerspectiveX is a visual intelligence platform that enhances understanding of objects from a single image by combining:
